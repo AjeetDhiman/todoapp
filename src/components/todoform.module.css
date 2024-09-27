@@ -1,0 +1,32 @@
+.wrapper {
+	margin-top: 25px;
+}
+
+.wrapper h1 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.wrapper form {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 15px;
+}
+
+.wrapper form input {
+	padding: 15px;
+	border: 1px solid currentColor;
+	border-radius: 5px;
+}
+
+.wrapper form button {
+	padding: 15px;
+	border: 1px solid currentColor;
+	border-radius: 5px;
+	cursor: pointer;
+}
